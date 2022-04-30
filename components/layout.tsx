@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <main>{children}</main>
+      <main className='h-screen bg-gray-800 text-white'>{children}</main>
       <Footer />
     </>
   );
