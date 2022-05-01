@@ -2,11 +2,11 @@ import Header from './header';
 import Footer from './footer';
 import { ReactNode } from 'react'
 
-type ViewProps = {
+type ButtonProps = {
     children: ReactNode;
 }
 
-export default function Layout({ children }: ViewProps) {
+export default function Layout({ children }: ButtonProps) {
   return (
     <>
       <Header />
