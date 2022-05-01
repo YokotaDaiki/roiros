@@ -63,10 +63,6 @@ const recentPosts = [
   { id: 3, name: 'Improve your customer experience', href: '#' },
 ]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
-
 export default function Header() {
   return (
     <Popover className="fixed bg-white bg-gray-800 text-white w-full">
