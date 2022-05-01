@@ -10,7 +10,7 @@ export default function Layout({ children }: ButtonProps) {
   return (
     <>
       <Header />
-      <main className='h-screen bg-gray-800 text-white'>{children}</main>
+      <main className='bg-gray-800 text-white'>{children}</main>
       <Footer />
     </>
   );
