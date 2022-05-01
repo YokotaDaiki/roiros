@@ -65,7 +65,7 @@ const recentPosts = [
 
 export default function Header() {
   return (
-    <Popover className="fixed bg-white bg-gray-800 text-white w-full">
+    <Popover className="fixed bg-gray-800 text-white w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-gray-100 py-6 md:justify-start md:space-x-10">
           <div className='flex items-center flex-shrink-0 text-white mr-6'>
