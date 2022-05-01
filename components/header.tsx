@@ -123,9 +123,8 @@ export default function Header() {
               <div className="mt-6">
                 <nav className="grid gap-y-8">
                   {solutions.map((item) => (
-                    <Link href={item.href}>
+                    <Link href={item.href} key={item.name}>
                       <a
-                      key={item.name}
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                       >
                         <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
