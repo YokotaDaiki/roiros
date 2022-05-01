@@ -83,14 +83,12 @@ export default function Header() {
               <a className="text-base font-medium text-teal-200 hover:text-white">Home</a>
             </Link>
             <Link href="/about">
-              <a href="/about" className="text-base font-medium text-teal-200 hover:text-white">About</a>
+              <a className="text-base font-medium text-teal-200 hover:text-white">About</a>
             </Link>
 
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a href="#" className="whitespace-nowrap text-base font-medium text-teal-200 hover:text-white">
-              ☆
-            </a>
+            ★
           </div>
         </div>
       </div>
